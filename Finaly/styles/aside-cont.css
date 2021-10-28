@@ -1,0 +1,73 @@
+.aside-cont {
+    padding-top: 85px;
+    padding: 1 20px;
+    max-width: 100%;
+    min-width: 100%;
+    background: url("../images/Rectanglee.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.actual {
+    display:inline-block;
+    padding-left: 50px;
+    margin: 0;
+    margin-left: 325px;
+}
+
+.title {
+    font-family: Segoe UI, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 144px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #3C3935;
+}
+
+.actual img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 96px;
+    height: 98px;
+    display: block;
+}
+
+.text-act {
+    font-family: Segoe UI, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.42px;
+    color: #3C3935;
+    width: 282.26px;
+    height: 123.44px;
+}
+
+.mim {
+    font-family: Segoe UI, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #0099A8;
+}
+
+.mini {
+    font-family: Segoe UI, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.42px;
+    color: #0099A8;
+    display: block;
+    text-align: center;
+}

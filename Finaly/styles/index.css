@@ -1,0 +1,7 @@
+@import "./normalize.css";
+@import "./general.css";
+@import "./header.css";
+@import "aside-news.css";
+@import "./aside-cont.css";
+@import "./aside-text.css";
+@import "./footer.css";

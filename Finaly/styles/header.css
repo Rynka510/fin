@@ -1,0 +1,226 @@
+.wrapper-header {
+    min-width: 100%;
+}
+
+header {
+    background: url("../images/jesse-bowser-EkxO-SFU9kc-unsplash 1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+p {
+    font-size: 1.1em;
+    color: #A8B3B8;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    color: #524f4e;
+}
+
+.current-demo,
+header nav a:hover {
+    box-shadow: 0 1px 0 #FF9F00;
+    border: 2px solid #FF9F00;
+    border: none;
+}
+
+.top-menu li :hover {
+    color: #FF9F00;
+}
+
+.menu-main {
+    list-style: none;
+    padding-left: 640px;
+}
+
+.menu-main:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left-item {
+    float: left;
+}
+
+.right-item {
+    float: right
+}
+
+.logo {
+    width: 354px;
+    height: 112px;
+}
+
+.menu-main a {
+    text-decoration: none;
+    display: block;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #09B3B0;
+    font-family: 'Roboto', sans-serif;
+    transition: .3s linear;
+}
+
+.navbar-logo {
+        position: absolute;
+        left: 60px;
+        top: 10px;
+}
+
+.btn-header {
+    background: url("../images/Ellipse 1 (2).png");
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+.btn-two {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    background: #09B3B0;
+    border: 1px solid #09B3B0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 99px;
+    height: 40px;
+}
+
+.btn {
+    margin: 10px;
+}
+.menu-main li {
+     float: none;
+     display: inline-block;
+}
+
+.menu-main a {
+    line-height: normal;
+     padding: 20px 15px;
+     font-size: 16px;
+}
+
+.head {
+    width: 494px;
+    font-family: Winter Insight, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 135px;
+    line-height: 130px;
+    text-align: center;
+    color: #FF9F00;
+}
+
+.text-head {
+    font-family: Winter Insight, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+    padding-left: 50px;
+}
+
+.head-o {
+    font-family: Yrsa, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 38px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FF9F00;
+    padding-left: 200px;
+}
+
+.ban {
+    height: 150px;
+    background: #09B3B0;
+}
+
+.banne{
+    position: absolute;
+    font-family: Yrsa, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-left: 515px;
+}
+
+@media(max-width:1024px) {
+    .menu-main {
+        padding-top: 90px;
+        text-align: center;
+    }
+
+    .logo {
+        width: 300px;
+        height: 100px;
+    }
+    .menu-main {
+        list-style: none;
+        margin: 50px;
+        padding-left: 520px;
+}
+
+@media(max-width:768px) {
+    .menu-main li {
+        display: block;
+    }
+
+    .logo {
+        width: 250px;
+        height: 75px;
+    }
+
+    .menu-main {
+        list-style: none;
+        margin: 50px;
+        padding-left: 410px;
+}
+
+@media (max-width: 480px) {
+     h1 {
+        font-size: 1.8em;
+     }
+    .logo {
+        width: 150px;
+        height: 75px;
+    }
+
+    .menu-main {
+        list-style: none;
+        margin: 50px;
+        padding-left: 300px;
+}
+
+@media (max-width: 480px) {
+    p {
+        font-size: 1em;
+    }
+    header nav a {
+        margin: 7px;
+    }
+}

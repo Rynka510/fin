@@ -1,0 +1,79 @@
+.paper {
+    display: block;
+    padding-bottom: 65px;
+
+}
+
+.site {
+    display: flex;
+}
+
+.caption {
+    font-family: Yrsa, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 43px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #09292F;
+    padding-top: 100px;
+}
+
+.textte {
+    width: 1064px;
+    height: 69px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #09292F;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.question {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 23px;
+    color: #008080;;
+}
+
+.rost {
+    margin-right: auto;
+    margin-left: 6px;
+    list-style-type: none;
+}
+
+.roster {
+    margin-right: auto;
+    margin-left: auto;
+    list-style-type: none;
+}
+
+.btn-text {
+    width: 147px;
+    height: 48px;
+    border: 1px solid #09B3B0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #09B3B0;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+}
+
+.btn-bor {
+    padding-top: 40px;
+}
